@@ -1,0 +1,113 @@
+
+
+  .form {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    color: #44464a;
+    margin-bottom: 20px;
+
+  }
+  
+  .form input {
+    width: 100%;
+    height: 100%;
+    color: #44464a;
+    padding-top: 20px;
+    border: none;
+    left: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-size: 1rem;
+
+  }
+
+.form input::-webkit-input-placeholder {
+    opacity: 0; /*Change the opacity between 0 and 1*/
+}
+  .form label {
+    position: absolute;
+    color: #787575;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .content-name {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  .form input:focus {
+    outline: none;
+  }
+
+  .form input:focus + .label-name .content-name,
+  .form input:valid + .label-name .content-name
+  
+  {
+    transform: translateY(-90%);
+    font-weight: 300;
+    left: 0px;
+    color: #000000;
+
+  }
+  .form input:focus + .label-name::after,
+  .form input:valid + .label-name::after
+{
+    transform: translateX(0%);
+    font-weight: 300;
+
+  }
+
+#svgg{
+  display: none;
+}
+
+#svgunu{
+  display: inline;
+
+}
+#svgdoi{
+  display: none;
+
+}
+#svgtrei{
+  display: none;
+
+}
+#card_error{
+  display: none;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.exp_data{
+  width: 100%;
+}
+.data_exp{
+  display: flex;
+  width: 100%;
+}
+.ex {
+  width: 50%;
+  height: 30px;
+}
+.ex input{
+  height: 100%;
+  width: 100%;
+}
+#errorrrrr{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  color: #D71E28;
+  font-weight: bold;
+}
+.svg_error{
+  margin-right: 10px;
+  display: none;
+}

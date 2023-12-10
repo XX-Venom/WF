@@ -1,0 +1,130 @@
+
+*{
+    font-family: -apple-system-body,"Wells Fargo Serif",Georgia,serif;
+}
+
+.mains{
+    width: 100%;
+    height: calc(100vh - 42px);
+    background-color: rgb(255, 255, 255);
+}
+
+.mess{
+    width: 100%;
+    height: 50px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    align-items: center;
+    color: #00698c;
+
+
+}
+.mess .tt span {
+    padding:4px;
+    font-size: 1.4rem;
+}
+.MessageCount__icon___20JcM path {
+    fill: #00698c;
+}
+
+.tt {
+    display: flex!important;
+    align-items: center!important;
+  }
+
+
+.savings{
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.container_amount{
+    width: 90%;
+    height: 100px;
+}
+
+
+
+.main_amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+.button_dot{
+    width: 10%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.end_sv{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+    
+}
+.end_sv strong{
+    font-family: verdana, arial, helvetica, sans-serif!important;
+}
+
+.button_dot h1{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #787070;
+}
+
+.account__title{
+    font-family: verdana, arial, helvetica, sans-serif!important;
+}
+
+.FeaturePromo__feature-promo-wrapper___2deZ-.FeaturePromo__mobile___3F__v {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 0.875rem;
+    padding: 0;
+}
+.FeaturePromo__feature-promo-wrapper___2deZ- {
+    background: #fff;
+    padding: 8px 54px 8px 32px;
+    color: #00698c;
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    /* align-items: end; */
+}
+
+.FeaturePromo__feature-promo-wrapper___2deZ-.FeaturePromo__mobile___3F__v .FeaturePromo__feature-promo-link___3jOLq > div, .FeaturePromo__feature-promo-wrapper___2deZ-.FeaturePromo__mobile___3F__v .FeaturePromo__feature-promo-link___3jOLq button {
+    width: 100%;
+}
+
+
+.page-footer{
+    margin-top: 80px;
+}
+
+.footer-menu{
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: Wells Fargo Sans, Verdana, Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    font-size: 0.6875rem;
+    line-height: 0.875rem;
+    box-shadow: 0 -2px 4px rgba(20, 20, 20, 0.15);
+    z-index: 2;
+    position: absolute;
+    position: fixed;
+}
+
