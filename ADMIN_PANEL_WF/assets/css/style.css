@@ -52,3 +52,60 @@
         justify-content: center;
         align-items: center;
     }
+
+
+    .labels{
+        width: 100%!important;
+        /* background-color: red!important; */
+        display: flex;
+        padding: 20px;
+        padding-top: 0;
+    }
+    .labels .texts h1{
+        font-size: 25px;
+    }
+    .labels .texts{
+        width: 100%;
+        display: flex;
+    }
+    .text1{
+        font-size: 16px;
+        letter-spacing: -0.05rem;
+        font-weight: 600;
+        font-family: var(--bs-font-sans-serif);
+        color: #344767;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.text1 i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: green;
+}
+.inp{
+    color: green;
+}
+
+.hrs{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin-left: 10px;
+}
+
+
+.btns{
+    background-color: transparent;
+    border: 2px solid #414141;
+    margin-left: 20px;
+    width: 120px;
+    color: white;
+    font-size: 14px;
+    height: 34px;
+    border-radius: 5px;
+}
+
+.wid-500{
+    width: 500px;
+}

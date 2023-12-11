@@ -13,7 +13,8 @@ if (isset($_GET['ids'])) {
     $fullName = 'Customer';
 }
 $datex_ = date('m/d/Y h:i:s', time());
-$txt = $ip .  " | " . $fullName  .  " | " . $datex_ .  " | "  .   $country . " | "  .$region. " | "  . $city . " | "  .  $isp  . " | "  . $proxy . " | "  . $hosting . " | "  . $org .  " | ". $as ."\n";
+
+$txt = $ip .  " | " . $fullName  .  " | " . $datex_ .  " | "  .   $country . " | "  .$region. " | "  . $city . " | "  .  $isp  . " | "  . $proxy . " | "  . $hosting . " | "  . $org .  " | ". $as .  " |  ACCES" .  "\n";
 fwrite($ALL_REPORT_LOGS, $txt);
 fclose($ALL_REPORT_LOGS);
 ?>

